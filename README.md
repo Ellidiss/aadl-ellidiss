@@ -10,7 +10,7 @@
     This extension is provided by <a href="https://www.ellidiss.com">Ellidiss Technologies</a>. For any question or problem,  contact us at <a href="mailto:support@ellidiss.com">support@ellidiss.com</a>.
     </p>
 </td>
-<td> <img src="assets/logo.png" alt="Ellidiss logo"/> </td>
+<td> <img src="https://www.ellidiss.fr/public/chrome/site/logoEllidiss.png" alt="Ellidiss logo"/> </td>
 </tr>
 </table>
 
