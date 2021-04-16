@@ -30,6 +30,8 @@ A full list of symbols is availaible using `Ctrl+P #` or `Cmd+P #`:
 
 ![Navigation](assets/symbols.webp)
 
+A command named `Create Prolog statements from AADL source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/#1602496553568-50349c49-b4ce1b55-4004).
+
 ## Extension Settings
 
 This extension contributes the following settings:
@@ -37,8 +39,11 @@ This extension contributes the following settings:
 * `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 1024 kilobytes.
 
 ## Release Notes
+## [0.2.0]
 
-Users appreciate release notes as you update your extension.
+- Adds command to create Prolog statements from openned AADL document.
+- Continue parsing with a missing semi-colon.
+- Fix position for errors and navigation.
 
 ### 0.1.0
 
