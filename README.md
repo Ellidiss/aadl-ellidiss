@@ -39,7 +39,7 @@ This extension contributes the following settings:
 * `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 1024 kilobytes.
 
 ## Release Notes
-## [0.2.0]
+## 0.2.0
 
 - Adds command to create Prolog statements from openned AADL document.
 - Continue parsing with a missing semi-colon.
