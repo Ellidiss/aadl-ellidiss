@@ -4,6 +4,13 @@ All notable changes to the "aadl-ellidiss" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [0.4.0]
+
+- All AADL files present in the workspace are loaded upon activation of extension.
+- Reference resolution is now incremental only updating current file and dependent units.
+- Adds support for symbol rename.
+- Shows all references for elements.
+
 ### [0.3.0]
 
 - Corrects missing standard library preloading.
