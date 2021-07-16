@@ -4,6 +4,17 @@ All notable changes to the "aadl-ellidiss" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [0.6.0]
+
+- Adds support for AADLInspector environment files.
+- Now listens to workspace folders changes and external document openings.
+- Few LAMP parsing fixes.
+
+### [0.5.0]
+
+- Adds command to run AADLInspector from an AADL or AIC file, with or without a plugin.
+- Adds a tree view to present AIC projects in workspace.
+
 ### [0.4.0]
 
 - All AADL files present in the workspace are loaded upon activation of extension.

@@ -18,7 +18,7 @@
 
 ## Features
 
-This extension contains a full AADL parser allowing error detection, reference resolution (go to definition or find references) and symbol renames:
+This extension contains a full AADL parser allowing error detection and reference resolution (go to definition or find references):
 
 ![Error](assets/errors.webp)
 
@@ -29,10 +29,6 @@ The reference resolution also allows for navigation between files:
 A full list of symbols is availaible using `Ctrl+P #` or `Cmd+P #`:
 
 ![Navigation](assets/symbols.webp)
-
-Symbol renaming affects all files in the work space:
-
-![Rename](assets/rename.webp)
 
 A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/#1602496553568-50349c49-b4ce1b55-4004).
 
@@ -46,12 +42,24 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### [0.6.0]
+
+- Adds support for AADLInspector environment files.
+- Now listens to workspace folders changes and external document openings.
+- Few LAMP parsing fixes.
+
+### [0.5.0]
+
+- Adds command to run AADLInspector from an AADL or AIC file, with or without a plugin.
+- Adds a tree view to present AIC projects in workspace
+
 ### [0.4.0]
 
 - All AADL files present in the workspace are loaded upon activation of extension.
 - Reference resolution is now incremental only updating current file and dependent units.
 - Adds support for symbol rename.
 - Shows all references for elements.
+
 ### [0.3.0]
 
 - Corrects missing standard library preloading.
