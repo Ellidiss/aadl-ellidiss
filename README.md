@@ -42,6 +42,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### [0.9.0]
+
+- Adds a more robust reference resolution mecanism
+- Presents duplication of element errors
+
 ### [0.8.0]
 
 - Corrects parser error for range of with complex reference.
