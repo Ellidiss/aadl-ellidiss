@@ -63,6 +63,11 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### [1.0]
+
+- First public release
+- Updated documentation
+
 ### [0.9]
 
 - Adds a more robust reference resolution mecanism
