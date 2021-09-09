@@ -4,6 +4,26 @@ All notable changes to the "aadl-ellidiss" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [0.9.0]
+
+- Adds a more robust reference resolution mecanism
+- Presents duplication of element errors
+
+### [0.8.0]
+
+- Corrects parser error for range of with complex reference.
+- Only load AIC file if present in a workspace.
+- Reload units and AIC references upon configuration change.
+- Better support for partial references resolution.
+- Corrected error signalisation size.
+
+### [0.7.0]
+
+- Adds support for old AIC format.
+- Reference resolution now support more cases (including multiple definitions).
+- Adds support for partial reference resolution.
+- Supports inverted feature groups.
+
 ### [0.6.0]
 
 - Adds support for AADLInspector environment files.
