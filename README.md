@@ -4,7 +4,7 @@
 <tr>
 <td>
     <p>
-    The AADL extension adds language support for AADL files to Visual Studio Code, including features such as syntax highlight, error detection, reference navigation and outlines and renaming. It supports the lastest version of AADL: 2.2 syntax.
+    The AADL extension adds language support for AADL files to Visual Studio Code, including features such as syntax highlight, error detection, reference navigation and outlines and renaming. It support the version 2.X of AADL.
     </p>
     <p>
     This extension is provided by <a href="https://www.ellidiss.com">Ellidiss Technologies</a>. For any question or problem,  contact us at <a href="mailto:support@ellidiss.com">support@ellidiss.com</a>.
@@ -22,18 +22,18 @@
 - [AADLInspector Integration](#AADLInspector-Integration)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
-  - [1.0](#1.0)
-  - [0.9](#0.9)
-  - [0.8](#0.8)
-  - [0.7](#0.7)
-  - [0.6](#0.6)
-  - [0.5](#0.5)
-  - [0.4](#0.4)
-  - [0.3](#0.3)
-  - [0.2.2](#0.2.2)
-  - [0.2.1](#0.2.1)
-  - [0.2](#0.2)
-  - [0.1](#0.1)
+  - [1.0](#10)
+  - [0.9](#09)
+  - [0.8](#08)
+  - [0.7](#07)
+  - [0.6](#06)
+  - [0.5](#05)
+  - [0.4](#04)
+  - [0.3](#03)
+  - [0.2.2](#022)
+  - [0.2.1](#021)
+  - [0.2](#02)
+  - [0.1](#01)
 
 ## Features
 
