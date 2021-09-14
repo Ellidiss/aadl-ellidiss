@@ -19,7 +19,9 @@
 ## Content
 
 - [Features](#Features)
+  - [Commands](#Commands)
 - [AADLInspector Integration](#AADLInspector-Integration)
+  - [Commands](#Commands)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
   - [1.0.0](#100)
@@ -53,20 +55,37 @@ This extension supports symbol renaming. By openning the contextual menu on a sy
 
 ![Rename](assets/rename.webp)
 
+### Commands
+
 A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/#1602496553568-50349c49-b4ce1b55-4004).
 
 The command `AADL: Split file into one file for each package (OSATE compabitility)` split openned file into one file for each package.
 
 ## AADLInspector Integration
 
+[Ellidiss](https://www.ellidiss) provides [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/) ([detailed](https://www.ellidiss.fr/public/wiki/inspector)). AADLInspector is a model processing framework for Critical Software Architecture Models. Based on the most recent version of the SAE-AS5506 (AADL) standard, it embeds a set of timing analysis, simulation and code generation tools. The tool also provides customizable input model converters for UML profiles or Domain Specific Modelling Languages.
+
+This extension provides integration with AADLInspector. It's able to present AIC project files in a dedicated explorer, launch AADLInspector on a given file or project and run plugins. To benefit at best this functions, it needs an AADLInspector version installed and the path set in the extension (settings)(#Extension-Settings).
+
+![Syntax](assets/aictree.webp)
+
+### Commands
+
+The command `AADL: Launch AADLInspector on current file and dependencies` will launch AADLInspector on select AADL file or AIC project.
+
+The command `AADL: Launch AADLInspector plugin on current file and dependencies` will launch AADLInspector and run a plugin on select AADL file or AIC project.
+
 ## Extension Settings
 
 This extension contributes the following settings:
 
-* `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 1024 kilobytes.
-
+* `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 512 kilobytes.
+* `aadl-ellidiss.AADLInspectorPath`: Path to AADLInspector installation on your system.
 ## Release Notes
 
+### [1.0.1]
+
+- Updated documentatoin
 ### [1.0.0]
 
 - First public release
