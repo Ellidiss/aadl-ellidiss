@@ -49,6 +49,10 @@ A full list of symbols is availaible using `Ctrl+P #` or `Cmd+P #`:
 
 ![Navigation](assets/symbols.webp)
 
+This extension supports symbol renaming. By openning the contextual menu on a symbol and select `Rename Symbol` or by simply using `F2`, the extension will rename the symbol to the new name.
+
+![Rename](assets/rename.webp)
+
 A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/#1602496553568-50349c49-b4ce1b55-4004).
 
 The command `AADL: Split file into one file for each package (OSATE compabitility)` split openned file into one file for each package.
