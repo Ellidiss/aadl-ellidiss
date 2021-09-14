@@ -57,7 +57,7 @@ This extension supports symbol renaming. By openning the contextual menu on a sy
 
 ### Commands
 
-A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/#1602496553568-50349c49-b4ce1b55-4004).
+A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](#AADLInspector-Integration).
 
 The command `AADL: Split file into one file for each package (OSATE compabitility)` split openned file into one file for each package.
 
@@ -65,7 +65,7 @@ The command `AADL: Split file into one file for each package (OSATE compabitilit
 
 [Ellidiss](https://www.ellidiss) provides [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/) ([detailed](https://www.ellidiss.fr/public/wiki/inspector)). AADLInspector is a model processing framework for Critical Software Architecture Models. Based on the most recent version of the SAE-AS5506 (AADL) standard, it embeds a set of timing analysis, simulation and code generation tools. The tool also provides customizable input model converters for UML profiles or Domain Specific Modelling Languages.
 
-This extension provides integration with AADLInspector. It's able to present AIC project files in a dedicated explorer, launch AADLInspector on a given file or project and run plugins. To benefit at best this functions, it needs an AADLInspector version installed and the path set in the extension (settings)(#Extension-Settings).
+This extension provides integration with AADLInspector. It's able to present AIC project files in a dedicated explorer, launch AADLInspector on a given file or project and run plugins. To benefit at best this functions, it needs an AADLInspector version installed and the path set in the extension [settings](#Extension-Settings).
 
 ![Syntax](assets/aictree.webp)
 
