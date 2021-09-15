@@ -24,6 +24,7 @@
   - [Commands](#Commands)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
+  - [1.0.1](#101)
   - [1.0.0](#100)
   - [0.9.0](#090)
   - [0.8.0](#080)
@@ -85,7 +86,8 @@ This extension contributes the following settings:
 
 ### [1.0.1]
 
-- Updated documentatoin
+- Updated documentation.
+
 ### [1.0.0]
 
 - First public release
