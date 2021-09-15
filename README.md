@@ -4,11 +4,16 @@
 <tr>
 <td>
     <p>
-    The AADL extension adds language support for AADL files to Visual Studio Code, including features such as syntax highlight, outlines, error detection, reference navigation and renaming. It support the version 2.X of AADL.
+    Edit your AADL model with the Visual Studio Code AADL extension, and verify it with AADL Inspector.
     </p>
     <p>
-    This extension is provided by <a href="https://www.ellidiss.com">Ellidiss Technologies</a>. For any question or problem,  contact us at <a href="mailto:support@ellidiss.com">support@ellidiss.com</a>.
+    This extension adds full language support for AADL files into Visual Studio Code, including features such as syntax highlighting, outlines, error detection, reference navigation and renaming. It support the version 2.2 of AADL, i.e. complies with the <a href="https://www.sae.org/standards/content/as5506c">SAE AS-5506C</a> standard.
     </p>
+    <p>
+    This extension is provided free of charge by Ellidiss Technologies and implements a seamless connection to the <a href="#AADL-Inspector-Integration">AADL Inspector</a> commercial tool.
+    </p>
+    <p>
+    For any question, problem or new requirements, please contact us at <a href="mailto:support@ellidiss.com">support@ellidiss.com</a>.
 </td>
 <td> <img src="https://www.ellidiss.fr/public/chrome/site/logoEllidiss.png" alt="Ellidiss logo"/> </td>
 </tr>
@@ -20,7 +25,7 @@
 
 - [Features](#Features)
   - [Commands](#Commands)
-- [AADLInspector Integration](#AADLInspector-Integration)
+- [AADL Inspector Integration](#AADL-Inspector-Integration)
   - [Commands](#Commands)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
@@ -40,7 +45,7 @@
 
 ## Features
 
-This extension contains a full AADL parser allowing error detection. It detects syntax errors and missing or duplicate references and presents them. It parses and checks errors in all openned files and files in the current workspaces. The reference resolution works accros files and uses all parsed files including from AIC project (see [AADLInspector Integration](#AADLInspectorIntegration)).
+This extension contains a full AADL parser allowing error detection. It detects syntax errors and missing or duplicate references and presents them. It parses and checks errors in all openned files and files in the current workspaces. The reference resolution works accros files and uses all parsed files including from AIC project (see [AADL Inspector Integration](#AADL-Inspector-Integration)).
 
 ![Error](assets/errors.webp)
 
@@ -58,35 +63,38 @@ This extension supports symbol renaming. By openning the contextual menu on a sy
 
 ### Commands
 
-A command named `AADL: Create Prolog statements from source` will create Prolog statements for the current AADL document. These statements are compatible with [AADLInspector](#AADLInspector-Integration).
+A command named `AADL: Create Prolog facts from source` will create a Prolog facts base for the selected AADL file. This facts base is compatible with the LMP model processing technology that is used by [AADL Inspector](#AADLInspector-Integration).
 
 The command `AADL: Split file into one file for each package (OSATE compabitility)` split openned file into one file for each package.
 
-## AADLInspector Integration
+## AADL Inspector Integration
 
-[Ellidiss](https://www.ellidiss) provides [AADLInspector](https://www.ellidiss.com/products/aadl-inspector/) ([detailed](https://www.ellidiss.fr/public/wiki/inspector)). AADLInspector is a model processing framework for Critical Software Architecture Models. Based on the most recent version of the SAE-AS5506 (AADL) standard, it embeds a set of timing analysis, simulation and code generation tools. The tool also provides customizable input model converters for UML profiles or Domain Specific Modelling Languages.
+[AADL Inspector](https://www.ellidiss.com/products/aadl-inspector/) ([detailed](https://www.ellidiss.fr/public/wiki/inspector)) is a model processing framework for Critical Software Architecture Models. It embeds or connects to a set of analysis tools applying on AADL projects in the areas of real-time performance, safety and cyber-security.
 
-This extension provides integration with AADLInspector. It's able to present AIC project files in a dedicated explorer, launch AADLInspector on a given file or project and run plugins. To benefit at best this functions, it needs an AADLInspector version installed and the path set in the extension [settings](#Extension-Settings).
+This extension provides a bridger to AADL Inspector. It is able to show .aic AADL project files in a dedicated explorer, launch AADL Inspector on a given file or project and run analysis tools. To benefit at best this functions, it needs AADL Inspector to be installed and the corresponding path to be set in the extension settings.
+
+For further information about how to get AADL Inspector , please contact us at [support@ellidiss.com](mailto:support@ellidiss.com). 
 
 ![Syntax](assets/aictree.webp)
 
 ### Commands
 
-The command `AADL: Launch AADLInspector on current file and dependencies` will launch AADLInspector on select AADL file or AIC project.
+The command `AADL: Launch AADL Inspector on current file and dependencies` will launch AADL Inspector on select AADL file or AIC project.
 
-The command `AADL: Launch AADLInspector plugin on current file and dependencies` will launch AADLInspector and run a plugin on select AADL file or AIC project.
+The command `AADL: Launch AADL Inspector plugin on current file and dependencies` will launch AADL Inspector and run a plugin on select AADL file or AIC project.
 
 ## Extension Settings
 
 This extension contributes the following settings:
 
 * `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 512 kilobytes.
-* `aadl-ellidiss.AADLInspectorPath`: Path to AADLInspector installation on your system.
+* `aadl-ellidiss.AADL InspectorPath`: Path to AADL Inspector installation on your system.
 ## Release Notes
 
 ### [1.0.1]
 
 - Updated documentation.
+- Corrects AADL Inspector icon.
 
 ### [1.0.0]
 
@@ -115,13 +123,13 @@ This extension contributes the following settings:
 
 ### [0.6.0]
 
-- Adds support for AADLInspector environment files.
+- Adds support for AADL Inspector environment files.
 - Now listens to workspace folders changes and external document openings.
 - Few LAMP parsing fixes.
 
 ### [0.5.0]
 
-- Adds command to run AADLInspector from an AADL or AIC file, with or without a plugin.
+- Adds command to run AADL Inspector from an AADL or AIC file, with or without a plugin.
 - Adds a tree view to present AIC projects in workspace
 
 ### [0.4.0]
