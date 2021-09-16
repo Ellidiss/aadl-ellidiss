@@ -10,7 +10,7 @@
     This extension adds full language support for AADL files into Visual Studio Code, including features such as syntax highlighting, outlines, error detection, reference navigation and renaming. It support the version 2.2 of AADL, i.e. complies with the <a href="https://www.sae.org/standards/content/as5506c">SAE AS-5506C</a> standard.
     </p>
     <p>
-    This extension is provided free of charge by Ellidiss Technologies and implements a seamless connection to the <a href="#AADL-Inspector-Integration">AADL Inspector</a> commercial tool.
+    This extension is provided free of charge by <a href="https://www.ellidiss.com">Ellidiss Technologies</a> and implements a seamless connection to the <a href="#AADL-Inspector-Integration">AADL Inspector</a> commercial tool.
     </p>
     <p>
     For any question, problem or new requirements, please contact us at <a href="mailto:support@ellidiss.com">support@ellidiss.com</a>.
