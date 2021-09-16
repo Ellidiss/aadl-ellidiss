@@ -91,7 +91,7 @@ This extension contributes the following settings:
 * `aadl-ellidiss.AADL InspectorPath`: Path to AADL Inspector installation on your system.
 ## Release Notes
 
-### [1.0.1]
+### [1.0.1] and [1.0.2]
 
 - Updated documentation.
 - Corrects AADL Inspector icon.

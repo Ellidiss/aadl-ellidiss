@@ -2,6 +2,11 @@
 
 All notable changes to the "aadl-ellidiss" extension will be documented in this file.
 
+### [1.0.1] and [1.0.2]
+
+- Updated documentation.
+- Corrects AADL Inspector icon.
+
 ### [1.0.0]
 
 - First public release
