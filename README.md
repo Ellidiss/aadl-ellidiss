@@ -52,7 +52,7 @@ This extension contains a full AADL parser allowing error detection. It detects 
 
 When hovering a reference, if the referenced element contains documentation (comments preceding the declaration). It will be presented as an hover popup.
 
-![Documentation](assets/hover.webp)
+![Documentation](assets/documentation.webp)
 
 The resolved references by the parser are navigable in Visual Studio Code. Both by `Ctrl+Click` (or `Cmd+Click` on MacOS) to go to the definition or using *Go to References* or *Find all References*
 
