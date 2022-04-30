@@ -2,6 +2,13 @@
 
 All notable changes to the "aadl-ellidiss" extension will be documented in this file.
 
+### [1.1.0]
+
+- Updates parser to support AADL 2.3 (flow references can contains several indirections).
+- Updates standard properties to support added properties in AADL 2.3.
+- Present documentation hover for references.
+- Fixed the stopping of the extension when a file pointed by an AIC didn't exist.
+
 ### [1.0.1] and [1.0.2]
 
 - Updated documentation.

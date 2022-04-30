@@ -7,7 +7,7 @@
     Edit your AADL model with the Visual Studio Code AADL extension, and verify it with AADL Inspector.
     </p>
     <p>
-    This extension adds full language support for AADL files into Visual Studio Code, including features such as syntax highlighting, outlines, error detection, reference navigation and renaming. It support the version 2.2 of AADL, i.e. complies with the <a href="https://www.sae.org/standards/content/as5506c">SAE AS-5506C</a> standard.
+    This extension adds full language support for AADL files into Visual Studio Code, including features such as syntax highlighting, outlines, error detection, reference navigation and renaming. It support the version 2.3 of AADL, i.e. complies with the <a href="https://www.sae.org/standards/content/as5506c">SAE AS-5506C</a> standard.
     </p>
     <p>
     This extension is provided free of charge by <a href="https://www.ellidiss.com">Ellidiss Technologies</a> and implements a seamless connection to the <a href="#AADL-Inspector-Integration">AADL Inspector</a> commercial tool.
@@ -29,6 +29,7 @@
   - [Commands](#Commands)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
+  - [1.1.1](#110)
   - [1.0.1](#101)
   - [1.0.0](#100)
   - [0.9.0](#090)
@@ -49,13 +50,17 @@ This extension contains a full AADL parser allowing error detection. It detects 
 
 ![Error](assets/errors.webp)
 
+When hovering a reference, if the referenced element contains documentation (comments preceding the declaration). It will be presented as an hover popup.
+
+![Documentation](assets/hover.webp)
+
 The resolved references by the parser are navigable in Visual Studio Code. Both by `Ctrl+Click` (or `Cmd+Click` on MacOS) to go to the definition or using *Go to References* or *Find all References*
 
 ![Navigation](assets/navigation.webp)
 
 A full list of symbols is availaible using `Ctrl+P #` or `Cmd+P #`:
 
-![Navigation](assets/symbols.webp)
+![Symbol](assets/symbols.webp)
 
 This extension supports symbol renaming. By openning the contextual menu on a symbol and select `Rename Symbol` or by simply using `F2`, the extension will rename the symbol to the new name.
 
@@ -90,6 +95,13 @@ This extension contributes the following settings:
 * `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 512 kilobytes.
 * `aadl-ellidiss.AADL InspectorPath`: Path to AADL Inspector installation on your system.
 ## Release Notes
+
+### [1.1.0]
+
+- Updates parser to support AADL 2.3 (flow references can contains several indirections).
+- Updates standard properties to support added properties in AADL 2.3.
+- Present documentation hover for references.
+- Fixed the stopping of the extension when a file pointed by an AIC didn't exist.
 
 ### [1.0.1] and [1.0.2]
 
