@@ -29,7 +29,8 @@
   - [Commands](#Commands)
 - [Extension Settings](#Extension-Settings)
 - [Release Notes](#Release-Notes)
-  - [1.1.1](#110)
+  - [1.1.1](#111)
+  - [1.1.0](#110)
   - [1.0.1](#101)
   - [1.0.0](#100)
   - [0.9.0](#090)
@@ -95,6 +96,12 @@ This extension contributes the following settings:
 * `aadl-ellidiss.maxDocumentSizeForParsing`: Maximum size for a document that can be parsed (in kilobytes). Default is 512 kilobytes.
 * `aadl-ellidiss.AADL InspectorPath`: Path to AADL Inspector installation on your system.
 ## Release Notes
+
+### [1.1.1]
+
+- Corrects properties in AADL 2.3 and updates documentation for hovers.
+- Property metamodel references now supports `provided` and `requires`.
+- If **AADLInspector Project** isn't already expanded, it's not expanded when openning a file referenced by an AIC file.
 
 ### [1.1.0]
 

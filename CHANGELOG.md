@@ -2,6 +2,12 @@
 
 All notable changes to the "aadl-ellidiss" extension will be documented in this file.
 
+### [1.1.1]
+
+- Corrects properties in AADL 2.3 and updates documentation for hovers.
+- Property metamodel references now supports `provided` and `requires`.
+- If **AADLInspector Project** isn't already expanded, it's not expanded when openning a file referenced by an AIC file.
+
 ### [1.1.0]
 
 - Updates parser to support AADL 2.3 (flow references can contains several indirections).
